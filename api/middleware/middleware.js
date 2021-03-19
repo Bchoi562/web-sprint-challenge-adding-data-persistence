@@ -19,7 +19,7 @@ function validateProjectBody(req,res,next){
         res.status(400).json({message:"Missing project data."})
       }
     else if(!req.body.project_name){
-        res.status(400).json({message:"Missing project name."})
+        res.status(400).json({message:"Missing project name."})   
 
     }
     else{next()}

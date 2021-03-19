@@ -1,4 +1,3 @@
-// build your `Project` model here
 const db=require('../../data/dbConfig')
 
 module.exports={
@@ -24,4 +23,4 @@ function getProjectById(id){
     if (!schemaObject) {return Promise.resolve(null)}
     else{return schemaObject}
 
-}
+}   
